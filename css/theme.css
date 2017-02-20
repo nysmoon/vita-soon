@@ -563,8 +563,8 @@ textarea {
     max-height: 60%;
 
     letter-spacing: 10px;
-    text-align: right;
-    text-transform: uppercase;
+/*    text-align: right;
+*/    text-transform: uppercase;
 
 }
 
