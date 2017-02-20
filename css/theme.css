@@ -447,8 +447,9 @@ textarea {
     display: block;
     content: '';
 
-    width: 30px;
+    width: 70%;
     height: 1px;
+    margin: auto;
 
     border-top: solid 1px #ddd;
 
