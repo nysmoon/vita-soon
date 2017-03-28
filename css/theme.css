@@ -79,7 +79,7 @@ body {
      -webkit-font-smoothing: antialiased;
 
     color: #333;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 22px;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
@@ -1566,11 +1566,14 @@ label.error {
 /*--------------------------------------------------------------------------------------------------------------------
  * LegacyRythmic Custom
  *--------------------------------------------------------------------------------------------------------------------*/
+a:not([href]) {
+    cursor: pointer;
+}
+
+.text-90deg-right {
+    margin-left: 100px;
+}
 
 .modal-testimonial {
     width: 80%;
-}
-
-.modal-testimonial img {
-    width: 100%;
 }
