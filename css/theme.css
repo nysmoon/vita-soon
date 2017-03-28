@@ -1570,6 +1570,10 @@ a:not([href]) {
     cursor: pointer;
 }
 
+.nav-justified {
+    
+}
+
 .text-90deg-right {
     margin-left: 100px;
 }
