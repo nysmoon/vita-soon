@@ -1017,11 +1017,10 @@ textarea {
     border-left: solid 1px #ddd;
 }
 
-.contact-information i.fa {
-    display: inline-block;
-    width: 20px;
-    text-align: center;
+.contact-information a, .contact-information li {
+    color: #777;
 }
+
 
 .contact-logo {
     padding-bottom: 20px;
@@ -1030,6 +1029,25 @@ textarea {
 #contact textarea {
     min-height: 300px;
     resize: vertical;
+}
+
+.social {
+    padding-top: 6px;
+    margin-left: 45px;
+}
+
+.social a.fa, .contact-information i.fa {
+
+    display: inline-block;
+
+    width: 32px;
+    height: 32px;
+
+    font-size: 13px;
+    line-height: 32px;
+    text-align: center;
+
+    margin-right: 10px;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------
@@ -1571,7 +1589,7 @@ a:not([href]) {
 }
 
 .nav-justified {
-    
+
 }
 
 .text-90deg-right {
