@@ -8,9 +8,9 @@ error_reporting(0);
 ob_start();
 
 // recipient
-$to = '';
+$to = 'nysmoon@gmail.com';
 // message subject
-$subject = '';
+$subject = 'Hello!';
 
 // Getting form values from _REQUEST
 $name    = !empty($_REQUEST['name'])    ? $_REQUEST['name']    : '-';
