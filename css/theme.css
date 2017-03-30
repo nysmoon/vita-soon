@@ -544,7 +544,7 @@ textarea {
  *------*/
 #home {
     height: 100%;
-    background: transparent url('../images/home.png') no-repeat center top / cover;
+    background: transparent url('../images/header-3.jpg') no-repeat left top / cover;
 }
 
 .header-text {
@@ -557,7 +557,7 @@ textarea {
 
     margin: auto;
 
-    width: 750px;
+/*    width: 750px; */
     height: 170px;
     max-width: 90%;
 
