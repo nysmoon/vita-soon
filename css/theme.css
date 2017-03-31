@@ -1598,8 +1598,8 @@ label.error {
     cursor: pointer;
 }
 
-.nav-justified {
-
+.nav-justified>li>a {
+    margin-bottom: 0;
 }
 
 .text-90deg-right {
