@@ -49,15 +49,15 @@
  * Imports
  *--------------------------------------------------------------------------------------------------------------------*/
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
-@import url(https://fonts.googleapis.com/css?family=Muli:400,300);
+ @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+ @import url(https://fonts.googleapis.com/css?family=Muli:400,300);
 
-@import 'bootstrap.min.css';
-@import 'animate.css';
-@import 'font-awesome.min.css';
-@import 'owl.carousel.css';
-@import 'owl.theme.css';
-@import 'magnific-popup.css';
+ @import 'bootstrap.min.css';
+ @import 'animate.css';
+ @import 'font-awesome.min.css';
+ @import 'owl.carousel.css';
+ @import 'owl.theme.css';
+ @import 'magnific-popup.css';
 
 /*--------------------------------------------------------------------------------------------------------------------
  * Global
@@ -67,7 +67,7 @@
  * General
  *---------*/
 
-html {
+ html {
     height: 100%;
 }
 
@@ -76,7 +76,7 @@ body {
     min-height: 100%;
 
     -moz-osx-font-smoothing: grayscale;
-     -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
 
     color: #333;
     font-size: 16px;
@@ -120,7 +120,7 @@ button:focus {
  * Preloader
  *-----------*/
 
-#preloader {
+ #preloader {
     /*display: none;*/
     position: fixed;
     z-index: 100;
@@ -156,8 +156,8 @@ button:focus {
     float: right;
 
     -webkit-animation: 1.9s loader infinite;
-         -o-animation: 1.9s loader infinite;
-            animation: 1.9s loader infinite;
+    -o-animation: 1.9s loader infinite;
+    animation: 1.9s loader infinite;
 }
 
 @-webkit-keyframes loader {
@@ -196,7 +196,7 @@ button:focus {
  * Main classes
  *--------------*/
 
-.main-container {
+ .main-container {
     position: relative;
 }
 
@@ -259,18 +259,18 @@ button:focus {
  * Typography
  *------------*/
 
-.h1,
-h1,
-.h2,
-h2,
-.h3,
-h3,
-.h4,
-h4,
-.h5,
-h5,
-.h6,
-h6 {
+ .h1,
+ h1,
+ .h2,
+ h2,
+ .h3,
+ h3,
+ .h4,
+ h4,
+ .h5,
+ h5,
+ .h6,
+ h6 {
     font-weight: 400;
     font-family: 'Muli', sans-serif;
 }
@@ -313,10 +313,10 @@ a:focus {
     color: #777;
 
     -webkit-transition: color .3s ease-in;
-       -moz-transition: color .3s ease-in;
-        -ms-transition: color .3s ease-in;
-         -o-transition: color .3s ease-in;
-            transition: color .3s ease-in;
+    -moz-transition: color .3s ease-in;
+    -ms-transition: color .3s ease-in;
+    -o-transition: color .3s ease-in;
+    transition: color .3s ease-in;
 }
 
 a:hover,
@@ -348,7 +348,7 @@ blockquote {
 /*
  * Icons
  *-------*/
-.fa-32 {
+ .fa-32 {
     font-size: 32px;
 }
 
@@ -373,14 +373,14 @@ blockquote {
  * Buttons
  *---------*/
 
-.btn,
-.btn:hover,
-.btn:focus,
-.btn:active {
+ .btn,
+ .btn:hover,
+ .btn:focus,
+ .btn:active {
 
     -webkit-box-shadow: none;
-       -moz-box-shadow: none;
-            box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
 
 .btn {
@@ -390,14 +390,14 @@ blockquote {
     text-transform: uppercase;
 
     -webkit-border-radius: 0;
-       -moz-border-radius: 0;
-            border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
 
     -webkit-transition: .3s ease-in-out;
-       -moz-transition: .3s ease-in-out;
-        -ms-transition: .3s ease-in-out;
-         -o-transition: .3s ease-in-out;
-            transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
 .btn-colored {
@@ -431,9 +431,9 @@ blockquote {
  * Fields
  *--------*/
 
-input[type=text],
-input[type=email],
-textarea {
+ input[type=text],
+ input[type=email],
+ textarea {
     width: 100%;
     resize: vertical;
     padding: 5px 12px;
@@ -454,10 +454,10 @@ textarea {
     border-top: solid 1px #ddd;
 
     -webkit-transition: .2s ease-in;
-       -moz-transition: .2s ease-in;
-        -ms-transition: .2s ease-in;
-         -o-transition: .2s ease-in;
-            transition: .2s ease-in;
+    -moz-transition: .2s ease-in;
+    -ms-transition: .2s ease-in;
+    -o-transition: .2s ease-in;
+    transition: .2s ease-in;
 }
 
 .underline:hover::after,
@@ -472,12 +472,12 @@ textarea {
 .form-control:focus {
 
     -webkit-border-radius: 0;
-       -moz-border-radius: 0;
-            border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
 
     -webkit-box-shadow: none;
-       -moz-box-shadow: none;
-            box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
 
 /*
@@ -489,7 +489,7 @@ textarea {
  * Text colors & effects
  *-----------------------*/
 
-.text-black {
+ .text-black {
     color: #000;
 }
 
@@ -520,19 +520,19 @@ textarea {
 .text-90deg {
 
     -webkit-transform: rotate(90deg);
-       -moz-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-         -o-transform: rotate(90deg);
-            transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 .text-270deg {
 
     -webkit-transform: rotate(270deg);
-       -moz-transform: rotate(270deg);
-        -ms-transform: rotate(270deg);
-         -o-transform: rotate(270deg);
-            transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
 }
 
 /*--------------------------------------------------------------------------------------------------------------------
@@ -542,9 +542,9 @@ textarea {
 /*
  * Main
  *------*/
-#home {
+ #home {
     height: 100%;
-    background: transparent url('../images/header-3.jpg') no-repeat left top / cover;
+    background: transparent url('../images/header.jpg') no-repeat left top / cover;
 }
 
 .header-text {
@@ -557,7 +557,7 @@ textarea {
 
     margin: auto;
 
-/*    width: 750px; */
+    /*    width: 750px; */
     height: 170px;
     max-width: 90%;
 
@@ -577,14 +577,14 @@ textarea {
  * Navigation
  *------------*/
 
-#navigation {
+ #navigation {
 
     border: 0;
     z-index: 10 !important;
 
     -webkit-border-radius: 0;
-       -moz-border-radius: 0;
-            border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
 
 }
 
@@ -650,22 +650,22 @@ textarea {
  * Affix Navbar (fade)
  *---------------------*/
 
-.affix {
+ .affix {
 
     -webkit-animation-duration: .9s;
-       -moz-animation-duration: .9s;
-         -o-animation-duration: .9s;
-            animation-duration: .9s;
+    -moz-animation-duration: .9s;
+    -o-animation-duration: .9s;
+    animation-duration: .9s;
 
     -webkit-animation-fill-mode: both;
-       -moz-animation-fill-mode: both;
-         -o-animation-fill-mode: both;
-            animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
 
     -webkit-animation-name: affixNavigation;
-       -moz-animation-name: affixNavigation;
-         -o-animation-name: affixNavigation;
-            animation-name: affixNavigation;
+    -moz-animation-name: affixNavigation;
+    -o-animation-name: affixNavigation;
+    animation-name: affixNavigation;
 
 }
 
@@ -676,10 +676,10 @@ textarea {
         opacity: .0;
 
         -webkit-transform: translate3d(0, -100%, 0);
-           -moz-transform: translate3d(0, -100%, 0);
-            -ms-transform: translate3d(0, -100%, 0);
-             -o-transform: translate3d(0, -100%, 0);
-                transform: translate3d(0, -100%, 0);
+        -moz-transform: translate3d(0, -100%, 0);
+        -ms-transform: translate3d(0, -100%, 0);
+        -o-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
     }
 
     to {
@@ -687,10 +687,10 @@ textarea {
         opacity: 1.0;
 
         -webkit-transform: none;
-           -moz-transform: none;
-            -ms-transform: none;
-             -o-transform: none;
-                transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none;
     }
 }
 
@@ -701,10 +701,10 @@ textarea {
         opacity: .0;
 
         -webkit-transform: translate3d(0, -100%, 0);
-           -moz-transform: translate3d(0, -100%, 0);
-            -ms-transform: translate3d(0, -100%, 0);
-             -o-transform: translate3d(0, -100%, 0);
-                transform: translate3d(0, -100%, 0);
+        -moz-transform: translate3d(0, -100%, 0);
+        -ms-transform: translate3d(0, -100%, 0);
+        -o-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
     }
 
     to {
@@ -712,10 +712,10 @@ textarea {
         opacity: 1.0;
 
         -webkit-transform: none;
-           -moz-transform: none;
-            -ms-transform: none;
-             -o-transform: none;
-                transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none;
     }
 }
 
@@ -723,11 +723,11 @@ textarea {
  * SECTION: About
  *--------------------------------------------------------------------------------------------------------------------*/
 
-.about-video,
-.about-video:hover,
-.about-video:visited,
-.about-video:focus,
-.about-video:active {
+ .about-video,
+ .about-video:hover,
+ .about-video:visited,
+ .about-video:focus,
+ .about-video:active {
     color: #555;
     text-decoration: none;
 }
@@ -754,7 +754,7 @@ textarea {
  * SECTION: Portfolio
  *--------------------------------------------------------------------------------------------------------------------*/
 
-.portfolio-filters {
+ .portfolio-filters {
     list-style: none;
 
     margin: 0 15px 0 0;
@@ -781,10 +781,10 @@ textarea {
     background: #333;
 
     -webkit-transition: .2s ease-in .15s;
-       -moz-transition: .2s ease-in .15s;
-        -ms-transition: .2s ease-in .15s;
-         -o-transition: .2s ease-in .15s;
-            transition: .2s ease-in .15s;
+    -moz-transition: .2s ease-in .15s;
+    -ms-transition: .2s ease-in .15s;
+    -o-transition: .2s ease-in .15s;
+    transition: .2s ease-in .15s;
 }
 
 .portfolio-filter-button:hover::after,
@@ -792,10 +792,10 @@ textarea {
     width: 100%;
 
     -webkit-transition-delay: .0s;
-       -moz-transition-delay: .0s;
-        -ms-transition-delay: .0s;
-         -o-transition-delay: .0s;
-            transition-delay: .0s;
+    -moz-transition-delay: .0s;
+    -ms-transition-delay: .0s;
+    -o-transition-delay: .0s;
+    transition-delay: .0s;
 }
 
 .portfolio-item {
@@ -824,10 +824,10 @@ textarea {
     background: rgba(255, 255, 255, .8);
 
     -webkit-transition: .3s ease-in-out;
-       -moz-transition: .3s ease-in-out;
-        -ms-transition: .3s ease-in-out;
-         -o-transition: .3s ease-in-out;
-            transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
 .portfolio-item:hover .portfolio-overlay {
@@ -872,8 +872,8 @@ textarea {
     opacity: 0;
 
     -webkit-transition: all 0.15s ease-out;
-       -moz-transition: all 0.15s ease-out;
-            transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
 }
 
 .mfp-fade.mfp-bg.mfp-ready {
@@ -887,8 +887,8 @@ textarea {
     opacity: 0;
 
     -webkit-transition: all 0.15s ease-out;
-       -moz-transition: all 0.15s ease-out;
-            transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
 }
 
 .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
@@ -903,10 +903,10 @@ textarea {
  * SECTION: Testimonials
  *--------------------------------------------------------------------------------------------------------------------*/
 
-.testimonial {
-}
+ .testimonial {
+ }
 
-.testimonial-author {
+ .testimonial-author {
     position: relative;
     padding-left: 80px;
     overflow: hidden;
@@ -934,15 +934,15 @@ textarea {
     overflow: hidden;
 
     -webkit-border-radius: 50%;
-       -moz-border-radius: 50%;
-            border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------
  * SECTION: Price
  *--------------------------------------------------------------------------------------------------------------------*/
 
-.price-block {
+ .price-block {
     position: relative;
     padding: 0 0 20px;
     overflow: hidden;
@@ -983,8 +983,8 @@ textarea {
 
     border: solid 1px #ddd;
     -webkit-border-radius: 50%;
-       -moz-border-radius: 50%;
-            border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
 }
 
 .price-features {
@@ -1001,7 +1001,7 @@ textarea {
  * SECTION: Contact
  *--------------------------------------------------------------------------------------------------------------------*/
 
-#map-canvas {
+ #map-canvas {
     width: 100%;
     height: 400px;
 }
@@ -1058,7 +1058,7 @@ textarea {
  * Posts list
  *------------*/
 
-.blog-post {
+ .blog-post {
     margin-bottom: 100px;
 }
 
@@ -1150,7 +1150,7 @@ textarea {
  * Blog widgets
  *--------------*/
 
-.blog-widget {
+ .blog-widget {
     margin-bottom: 100px;
 }
 
@@ -1183,15 +1183,15 @@ textarea {
  * BLOG WIDGET: Recent posts
  *---------------------------*/
 
-.blog-resent-post {
-}
+ .blog-resent-post {
+ }
 
 /*
  * BLOG WIDGET: Tags
  *-------------------*/
 
-.tag,
-.tag:hover {
+ .tag,
+ .tag:hover {
     text-decoration: none;
 }
 
@@ -1207,7 +1207,7 @@ textarea {
  * Owl.Carousel customization
  *----------------------------*/
 
-.owl-theme .owl-controls {
+ .owl-theme .owl-controls {
     margin-top: 0 !important;
 
     position: absolute;
@@ -1238,14 +1238,14 @@ textarea {
     background: rgba(0, 0, 0, .7);
 
     -webkit-border-radius: 0;
-       -moz-border-radius: 0;
-            border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
 
     -webkit-transition: .3s ease-in;
-       -moz-transition: .3s ease-in;
-        -ms-transition: .3s ease-in;
-         -o-transition: .3s ease-in;
-            transition: .3s ease-in;
+    -moz-transition: .3s ease-in;
+    -ms-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
 }
 
 .owl-theme .owl-controls .owl-buttons div:hover {
@@ -1256,7 +1256,7 @@ textarea {
  * Blog Post
  *-----------*/
 
-.blog-post-author.inner {
+ .blog-post-author.inner {
     text-align: center;
 }
 
@@ -1277,7 +1277,7 @@ textarea {
  * BLOG POST WIDGET: Comments
  *----------------------------*/
 
-.blog-post-comment {
+ .blog-post-comment {
     margin-top: 15px;
 }
 
@@ -1305,8 +1305,8 @@ textarea {
     overflow: hidden;
 
     -webkit-border-radius: 50%;
-       -moz-border-radius: 50%;
-            border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
 }
 
 .blog-post-comment-author {
@@ -1327,7 +1327,7 @@ textarea {
  * FOOTER
  *--------------------------------------------------------------------------------------------------------------------*/
 
-.footer {
+ .footer {
     padding: 20px 0;
 }
 
@@ -1361,7 +1361,7 @@ textarea {
  * Modal windows
  *--------------------------------------------------------------------------------------------------------------------*/
 
-.modal {
+ .modal {
     top: 50px;
 }
 
@@ -1438,50 +1438,50 @@ label.error {
     font-weight: 300;
     background: rgba(0, 0, 0, .3);
     -webkit-border-radius: 3px;
-       -moz-border-radius: 3px;
-            border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
     -webkit-animation: 0.3s animationZoomIn;
-         -o-animation: 0.3s animationZoomIn;
-            animation: 0.3s animationZoomIn;
+    -o-animation: 0.3s animationZoomIn;
+    animation: 0.3s animationZoomIn;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------
  * Animations
  *--------------------------------------------------------------------------------------------------------------------*/
 
-/* ZoomIn animation */
+ /* ZoomIn animation */
 
-@-moz-keyframes animationZoomIn {
+ @-moz-keyframes animationZoomIn {
     from {
         -webkit-transform: scale(0.7) translateY(-100%);
-           -moz-transform: scale(0.7) translateY(-100%);
-            -ms-transform: scale(0.7) translateY(-100%);
-             -o-transform: scale(0.7) translateY(-100%);
-                transform: scale(0.7) translateY(-100%);
+        -moz-transform: scale(0.7) translateY(-100%);
+        -ms-transform: scale(0.7) translateY(-100%);
+        -o-transform: scale(0.7) translateY(-100%);
+        transform: scale(0.7) translateY(-100%);
     }
     to {
         -webkit-transform: scale(1) translateY(0);
-           -moz-transform: scale(1) translateY(0);
-            -ms-transform: scale(1) translateY(0);
-             -o-transform: scale(1) translateY(0);
-                transform: scale(1) translateY(0);
+        -moz-transform: scale(1) translateY(0);
+        -ms-transform: scale(1) translateY(0);
+        -o-transform: scale(1) translateY(0);
+        transform: scale(1) translateY(0);
     }
 }
 
 @keyframes animationZoomIn {
     from {
         -webkit-transform: scale(0.7) translateY(-100%);
-           -moz-transform: scale(0.7) translateY(-100%);
-            -ms-transform: scale(0.7) translateY(-100%);
-             -o-transform: scale(0.7) translateY(-100%);
-                transform: scale(0.7) translateY(-100%);
+        -moz-transform: scale(0.7) translateY(-100%);
+        -ms-transform: scale(0.7) translateY(-100%);
+        -o-transform: scale(0.7) translateY(-100%);
+        transform: scale(0.7) translateY(-100%);
     }
     to {
         -webkit-transform: scale(1) translateY(0);
-           -moz-transform: scale(1) translateY(0);
-            -ms-transform: scale(1) translateY(0);
-             -o-transform: scale(1) translateY(0);
-                transform: scale(1) translateY(0);
+        -moz-transform: scale(1) translateY(0);
+        -ms-transform: scale(1) translateY(0);
+        -o-transform: scale(1) translateY(0);
+        transform: scale(1) translateY(0);
     }
 }
 
@@ -1489,7 +1489,7 @@ label.error {
  * Responsive
  *--------------------------------------------------------------------------------------------------------------------*/
 
-@media (max-width: 991px) {
+ @media (max-width: 991px) {
 
     .text-big {
         display: none;
@@ -1581,10 +1581,20 @@ label.error {
     }
 }
 
+@media screen and (max-width: 767px) {
+    #home {
+        height: 50%;
+    }
+
+    #home .header-text {
+        margin-top: 50px 
+    }
+}
+
 /*--------------------------------------------------------------------------------------------------------------------
  * LegacyRythmic Custom
  *--------------------------------------------------------------------------------------------------------------------*/
-a:not([href]) {
+ a:not([href]) {
     cursor: pointer;
 }
 
