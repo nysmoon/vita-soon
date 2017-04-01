@@ -346,6 +346,14 @@ blockquote {
 }
 
 /*
+ * Images
+ *-------*/
+
+ .img-space {
+    margin: 5px;
+ }
+
+/*
  * Icons
  *-------*/
  .fa-32 {
@@ -1549,9 +1557,14 @@ label.error {
         margin-top: 20px;
         text-align: center;
     }
+
+    .section-content {
+        margin-top: 0;
+    } 
+
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
 
     #navigation {
         /*background: #fff;*/
@@ -1579,9 +1592,7 @@ label.error {
     .blog-post-category {
         text-align: center !important;
     }
-}
 
-@media screen and (max-width: 767px) {
     #home {
         height: 65%;
     }
