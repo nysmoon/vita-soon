@@ -1583,7 +1583,7 @@ label.error {
 
 @media screen and (max-width: 767px) {
     #home {
-        height: 50%;
+        height: 65%;
     }
 
     #home .header-text {
